@@ -15,4 +15,16 @@ public class Resta {
         System.out.print(num1 + "-" + num2 + "= " + resta);
     }
 
+    public void dividir () {
+        //Pedir datos por pantalla
+        System.out.println("Introduzca el primer número a dividir: ");
+        int num1 = this.sc.nextInt();
+        System.out.println("Introduzca el segundo número a dividir: ");
+        int num2 = this.sc.nextInt();
+
+        //Operación multiplicar
+        int division = num1 / num2;
+        System.out.println(num1 + "/" + num2 + "= " + division);
+    }
+
 }

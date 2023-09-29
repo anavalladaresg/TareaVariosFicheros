@@ -8,6 +8,8 @@ public class Main {
         //LLamada a los métodos de las otras clases
         s.suma();
         r.resta();
+        s.multiplicar();
+        r.dividir();
     }
 
 }
